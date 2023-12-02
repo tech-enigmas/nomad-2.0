@@ -76,3 +76,5 @@ List the functionality of your product. This will consist of tasks such as the f
 ## DOMAIN MODELING
 
 ![FINAL-401-WIREFRAME](./imgs/Screenshot%202023-12-02%20at%201.50.34 PM.png)
+![FINAL-401-DATABASE-SCHEMA](./imgs/Screenshot%202023-12-02%20at%201.59.11 PM.png)
+![FINAL-401-CLI](./imgs//Screenshot%202023-12-02%20at%202.01.42 PM.png)

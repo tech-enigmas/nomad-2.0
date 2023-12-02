@@ -2,7 +2,7 @@
 
 ## Nomad
 
-## Authors: Jaye, Emily, Josh
+## Authors: Jaye, Emily, Josh Christina
 
 ## Version: 1.0.0
 

@@ -4,13 +4,13 @@
 
 ## Authors: Jaye, Emily, Josh Christina
 
-## Version: 1.0.0
+## Version: 2.0.0
 
 ## Overview
 
 The vision of this project is to create a web-based app that has functionality to plan a route on
-a map, check local camping/air bnb lodging, and sign in to save your content. Also to be able
-to check the weather at the destination, as to be able to plan accordingly. This is an all-in-one road trip app.
+a map, check local camping/air bnb lodging, and sign in to save your content. Users will be able
+to check the weather at the destination, as to be able to plan accordingly. Nomad will also have an interactive community travel blogging section as well. This is an all-in-one road trip app.
 
 This app allows individuals to organize and plan a roadtrip to alleviate stress on which way to go and where they will stay.
 Make the most out of your vacation!
@@ -27,12 +27,13 @@ Open <http://localhost:3000> to view it in your browser.
 
 ## Architecture
 
-This project was built in React using languages: JSX, JavaScript, CSS, and utilizes Auth0,
+This project was built in React using languages: JSX, JavaScript, CSS,and utilizes Auth0, MongoDB,
 the Google Maps, RIBD Recreation.gov campsite, and Airbnb from RapidAPI.com APIs.
 
 ## Changelog
 
 - 06-15-2023 (1.0.0) - Functional site where user can save trip with campsite and Airbnb
+- 12-02-2023 (2.0.0) -
 
 ## Project Resources
 
@@ -47,9 +48,6 @@ APIs:
 - [Airbnb API by RapidAPI.com](https://rapidapi.com/3b-data-3b-data-default/api/airbnb13/)
 
 Images:
-
-- [Default trip image](https://cdn.pixabay.com/photo/2017/04/05/01/13/trip-2203682_1280.jpg)
-- [Campsite default image](https://openclipart.org/download/325701/tent-0032588nahxbh.svg)
 
 Other:
 
@@ -66,7 +64,7 @@ Get all user's trips (needs to create a trip first)
 
 Example response:
 
-``` json
+json
 [
   {
     "_id": "6488be4dfvdfbfs35345",
@@ -259,179 +257,5 @@ Delete a trip (requires trip id)
 
 ## Figma Board
 
-<https://www.figma.com/file/JYOaHiT7e9v54nR9cIPoPk/Untitled?type=whiteboard&node-id=0-1&t=aqNKd0dkZzRnxe1j-0>
-
-## Project Prep
-
-### What are the key strengths of each person on the team?
-
-Jaye - Attention to details. Top tier logic and problem solving.
-Emily - Backend building servers and databases. Godlike CSS Skills.
-Josh - Awesome support, teamplayer, hype-train
-
-### How can you best utilize these strengths in the execution of your project?
-
-Jaye - Attention to details.
-Emily - Backend building servers and databases.
-Josh - Support teammates. create things
-
-### In which professional competencies do you each want to develop greater strength?
-
-Jaye - Looking to grow in all areas.
-Emily - Craft competency
-Josh - Looking to grow in software knowledge
-
-### Knowing that every person in your team needs to understand all aspects of the project, how do you plan to approach the day-to-day work?
-
-Team meeting, decide tasks, execute.
-
-### What will be your group’s process to resolve conflict, when it arises?
-
-Communication. Be nice about it, but not like.... you know... if you ahve problems, adress them.
-
-### What will your team do if one person is taking over the project and not letting the other members contribute?
-
-Call em out!
-
-### How will you approach each other and the challenges of the project knowing that it is impossible for all members to be at the exact same place in understanding and skill level?
-
-Help eachother understand, call a TA if it is not working out explaining.
-
-### How will you raise concerns to members who are not adequately contributing? How and when will you escalate the conflict if your resolution attempts are unsuccessful?
-
-Call em out! Communicate
-
-### What hours will you be available to communicate?
-
-Daytime hours - No Sundays
-
-### What platforms will you use to communicate (ie. Slack, phone …)?
-
-Slack, text
-
-### How often will you take breaks?
-
-As needed
-
-### What is your plan if you start to fall behind?
-
-Work harder, plan better
-
-### How will you communicate after hours and on the weekend?
-
-Text, slack
-
-### What is your strategy for ensuring everyone’s voice is heard?
-
-ask everyone
-
-### How will you ensure that you are creating a safe environment where everyone feels comfortable speaking up?
-
-Check in with eachother, make sure everyone is feeling heard.
-
-### How you will identify tasks, assign tasks, know when they are complete, and manage work in general?
-
-outline the project, dig deeper into the components of the project, list tasks and pick/choose. keep proper git-flow.
-
-### What project management tool will be used?
-
-Trello
-
-### What components of your project will live on GitHub?
-
-All of them? except .env
-
-### How will you share the repository with your teammates?
-
-made an organization on github and we are all admins
-
-### What is your Git flow?
-
-goood communication - ACP often, pull before working.
-
-### Will you be using a PR review workflow? If so, consider: How many people must review a PR?
-
-we will have main branch protection, but anyone can complete pull requests.
-
-### Who merges PRs?
-
-individuals
-
-### How often will you merge?
-
-end of the night, merge current work. then pull it back down for the next day
-
-### How will you communicate that it’s time to merge?
-
-sound the alarms
-
-## Nomad 2.0
-
-
-Every person on your team is an asset. This is your chance to discover the hidden strengths and areas for growth for each team member.
-
-Describe at least:
-
-What are the key strengths of each person on the team?
-How can you best utilize these strengths in the execution of your project?
-In which professional competencies do you each want to develop greater strength?
-Knowing that every person in your team needs to understand all aspects of the project, how do you plan to approach the day-to-day work?
-NOTE: Undoing, Redoing, Replacing, or otherwise steamrolling the project as an individual is considered to be unacceptable. Account for the inevitable divergence of ideas, execution tasks, and assignments of duties here.
-
-Conflict Plan
-Your team should agree on a process for handing disagreements, should they arise. It is better to have a plan in place ahead of time so you can all refer back to it when necessary.
-
-Describe at least:
-
-What will be your group’s process to resolve conflict, when it arises?
-What will your team do if one person is taking over the project and not letting the other members contribute?
-How will you approach each other and the challenges of the project knowing that it is impossible for all members to be at the exact same place in understanding and skill level?
-How will you raise concerns to members who are not adequately contributing?
-How and when will you escalate the conflict if your resolution attempts are unsuccessful?
-Communication Plan
-Before beginning to tackle the project, determine how your group will communicate with each other. This is not an individual effort. Make sure everyone feels comfortable with the identified methods of speaking up.
-
-Describe at least:
-
-What hours will you be available to communicate?
-What platforms will you use to communicate (ie. Slack, phone …)?
-How often will you take breaks?
-What is your plan if you start to fall behind?
-How will you communicate after hours and on the weekend?
-What is your strategy for ensuring everyone’s voice is heard?
-How will you ensure that you are creating a safe environment where everyone feels comfortable speaking up?
-Work Plan
-Explain your work plan to track whether everyone is contributing equally to all parts of the project, and that each person is working on “meaty” problems. This should prevent “lone wolf” efforts and “siloed” efforts.
-
-NOTE: While researching and experimentation is always encouraged, writing and/or committing code to the project on your own during non-working hours or over the weekend is never acceptable. This puts the entire project at risk. Be explicit in calling out your work hours and the distribution of tasks.
-
-Describe at least:
-
-How you will identify tasks, assign tasks, know when they are complete, and manage work in general?
-What project management tool will be used?
-Presentation Deck
-Make a single copy of the Presentation Deck Template. Share your copy will all team members, so everyone is working from the same file.
-
-Link to the shared doc in your project plan.
-
-Schedule your practice session
-Work with your instructor to pre-schedule an date and time for your “practice run” of your presentation. This should either be an exact time, or a short window of time designated by your instructor. Plan for a 30-45 minute meeting during the class session before your actual presentation to allow time for both your practice run and feedback from the instructional team.
-
-Reminder as you work on and practice your presentations:
-
-Expressions of gratitude should be heartfelt.
-When not presenting, team members should make strong eye contact with the “audience” / camera.
-Be positive, no matter how tired or burned out you may feel … “Your smiles can be heard over the phone”
-Git Process
-Plan out what your team’s Git workflow looks like for coding tasks.
-
-Describe at least:
-
-What components of your project will live on GitHub?
-How will you share the repository with your teammates?
-What is your Git flow?
-Will you be using a PR review workflow? If so, consider:
-How many people must review a PR?
-Who merges PRs?
-How often will you merge?
-How will you communicate that it’s time to merge?
+Nomad 2.0
+<https://www.figma.com/file/G7OB1BovmsHsYqrKZYEgBb/The-Travelers-Quill?type=whiteboard&node-id=133-693>

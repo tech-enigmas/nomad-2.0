@@ -1,0 +1,106 @@
+@import '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+.airbnb .card {
+  margin: auto auto;
+}
+
+.airbnb .col {
+  margin: 10px 0;
+}
+
+.airbnb .card-img-top {
+  height: 300px;
+}
+
+.airbnb-modal .modal-title-location {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.airbnb .host-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+/* Button css from: https://www.sliderrevolution.com/resources/css-button-hover-effects/ */
+.airbnb .button {
+  display: inline-block;
+  /* font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  padding: 0.4em 1.4em;
+  font-size: 1.4rem;
+  padding-right: 4.7em;
+  background: #009ED8;
+  border: none;
+  color: white;
+  transition: 0.2s;
+  border-radius: 15px;
+}
+.airbnb .button:before,
+.airbnb .button:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding-top: inherit;
+  padding-bottom: inherit;
+  border-radius: 15px;
+  width: 2.8em;
+  content: "\00a0";
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  transition: 0.2s;
+  transform-origin: 50% 60%;
+}
+.airbnb .button:before {
+  background: rgba(0, 0, 0, 0.1);
+}
+.airbnb .button:hover {
+  background: #0079a5;
+}
+.airbnb .button:active,
+.airbnb .button:focus {
+  background: #002e3f;
+  outline: none;
+}
+.airbnb .button {
+  /* min-width: 10em; */
+}
+.airbnb .arrow {
+  background: #FE5F55;
+}
+.airbnb .arrow:hover {
+  background: #fe2f22;
+}
+.airbnb .arrow:active,
+.airbnb .arrow:focus {
+  background: #b90c01;
+}
+.airbnb .arrow:after {
+  content: "\F054";
+}
+.airbnb .arrow:hover:after {
+  -webkit-animation: bounceright 0.3s alternate ease infinite;
+  animation: bounceright 0.3s alternate ease infinite;
+}
+
+@-webkit-keyframes bounceright {
+  from {
+    -webkit-transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(3px);
+  }
+}
+
+@keyframes bounceright {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(3px);
+  }
+}

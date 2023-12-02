@@ -1,0 +1,29 @@
+.alert {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.trip-card {
+  margin: 20px;
+}
+
+.trip-card .card-img-top {
+  height: 230px;
+}
+
+.trip-card p {
+  font-size: 1.3rem;
+}
+
+.trip-card .date {
+  /* border: 1px dotted #f0f0f0; */
+  border-radius: 10px;
+}
+
+.trip-card p span {
+  font-size: 1rem;
+}

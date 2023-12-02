@@ -1,0 +1,10 @@
+.about {
+  height: 100vh;
+  background-image: url("./img/nomad-about3.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 10px;
+  color:ivory;
+}

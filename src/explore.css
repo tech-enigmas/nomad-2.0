@@ -1,0 +1,51 @@
+
+/* body {
+  height: 700vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 250px;
+} */
+body {
+  background-color: lightblue;
+}
+
+.explore {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.explore .col {
+  width:800px;
+  margin:auto;
+  padding:10px;
+  text-align: center;
+}
+
+.explore .accordion-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:10px;
+  margin:20px;
+}
+
+.explore .accordion-body img {
+  max-height: 300px;
+  max-width: 700px;
+  margin:auto;
+}
+
+.d-grid  {
+  margin:auto;
+  padding-top: 100px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+  width:250px;
+  height:100px;
+}
+
+.mb-3 {
+  font-family: 'Amatic SC', cursive;
+}

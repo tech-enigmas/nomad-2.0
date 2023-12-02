@@ -1,0 +1,33 @@
+.profile .container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.profile h2 {
+  margin: 40px;
+}
+
+.text-center {
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
+}
+.profile {
+  height: 350vh;
+  background-image: url("./img/nomad-explore-background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 10px;
+  color:ivory;
+}
+/* .explore {
+  height: 120vh;
+  background-image: url("./img/nomad-profile3.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 10px;
+  color:ivory;
+} */

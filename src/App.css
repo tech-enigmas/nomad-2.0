@@ -1,0 +1,94 @@
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.home {
+  height: 100vh;
+  background-image: url("./img/nomad-background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 250px;
+}
+
+.home h1 {
+  font-family: 'Amatic SC', cursive;
+  color:ivory!important;
+  text-align: center!important;
+  font-size: 300px !important;
+  /* margin:250px !important; */
+}
+
+.justify-content-end {
+  font-family: 'Amatic SC', cursive !important;
+  height: 45px !important;
+  background-color: ivory;
+
+}
+
+.justify-content-end a {
+  color: black !important;
+  font-size: 30px !important;
+  padding: 10px !important;
+}
+
+.footer {
+  font-family: 'Amatic SC', cursive;
+  color:ivory;
+  text-align: center;
+  margin: 0;
+  /* margin: 30px 30px 0px 30px; */
+}
+
+.about {
+  font-family: 'Amatic SC', cursive;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1.3rem;
+}
+
+.about span {
+  font-size: 1.6rem;
+}
+
+.camping-form.card {
+  margin:20px;
+}
+.camping {
+  width: 500px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.card {
+  margin: auto;
+  font-family: 'Amatic SC', cursive;
+  color:ivory;
+  text-align: center;
+  font-size: 30px;
+  padding:30px;
+}
+
+.camp {
+  display: inline-block;
+  position: relative;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding:30px;
+}
+
+.camp-header{
+  font-size: 30px;
+}
+
+.explore .accordion-body {
+  display: inline-block;
+  position: relative;
+  padding:10px;
+}
+
+.explore .accordion-body img {
+  max-height: 300px;
+  margin:10px;
+}

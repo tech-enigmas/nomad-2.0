@@ -1,4 +1,4 @@
-# Traveler's Quill
+# Nomad 2.0
 
 ## Project Prep
 
